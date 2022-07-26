@@ -520,7 +520,7 @@ a {
 
 /* Checked */
 .form_radio_group input[type=radio]:checked + label {
-  color: #ffffff;
+  color: #ffffff !important;;
   background: var(--accent-color);
 }
 
