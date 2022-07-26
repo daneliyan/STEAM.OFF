@@ -513,14 +513,15 @@ a {
   border-right: 1px solid #86858A;
 }
 
-/* Checked */
-.form_radio_group input[type=radio]:checked + label {
-  background: var(--accent-color);
-}
-
 /* Hover */
 .form_radio_group label:hover {
   color: var(--accent-color);
+}
+
+/* Checked */
+.form_radio_group input[type=radio]:checked + label {
+  color: #ffffff;
+  background: var(--accent-color);
 }
 
 input::-webkit-outer-spin-button,
