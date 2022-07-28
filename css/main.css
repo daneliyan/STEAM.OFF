@@ -676,7 +676,12 @@ body {
 .form {
   margin-right: auto;
   margin-left: auto;
-  width: 420px;
+  width: 450px;
+}
+@media (max-width: 768px) {
+  .form {
+    width: 420px;
+  }
 }
 @media (max-width: 460px) {
   .form {
